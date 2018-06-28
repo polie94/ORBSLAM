@@ -178,6 +178,7 @@ private:
     std::mutex mMutexState;
 };
 
+    
 }// namespace ORB_SLAM
 
 #endif // SYSTEM_H
