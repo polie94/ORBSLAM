@@ -146,7 +146,6 @@ fclose(plik);
             {
                 usleep(1000);
             }
-
             mpTracker->InformOnlyTracking(true);
             mbActivateLocalizationMode = false;
         }
