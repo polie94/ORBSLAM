@@ -1,0 +1,14 @@
+ros_stereo.cc
+linia 34: dołączenie biblioteki
+linia 53: klasa PoseGrabber  wraz z metodą  do odczytu pozycji i uchwytem do klasy System
+linia 60: funkcja Callback do podglądu pozycji wysyłanej przez ROS
+linia 85:zmienna typu PoseGrabber
+linia 134: Subscriber 
+linia 140:callback pozycji przez metodę GrabPose(linia 195)
+linia 195: metoda GrabPose - wysyłanie danych do pliku System , funkcji TrackPose
+
+System.h
+linia 64: deklaracja funkcji TrackPose
+
+System.cc
+linia 118: definicja funkcji TrackPose pobierającej pozycje z ROS stereo. Zapis do pliku w celu weryfikacji poprawności danych
